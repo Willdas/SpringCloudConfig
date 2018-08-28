@@ -5,14 +5,14 @@ spring:
 
 ---
 spring:
-  profile: dev  #开发环境
     application:
       name: springCloud-config-dev
+    profile: dev  #开发环境
 
 ---
 spring:
-  profile: test #测试环境
   application: 
     name: springCloud-config-dev
+  profile: test #测试环境
 #保存为UTF-8格式
 

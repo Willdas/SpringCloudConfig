@@ -5,8 +5,10 @@ spring:
 --- 
 server:
   port:  8201
-  application:  
-    name:  springcloud-config-client
+spring:  
+  profiles: dev  #开发环境
+  application:
+    name: springcloud-config-client
 eureka:  
   client:  
     service-url:  

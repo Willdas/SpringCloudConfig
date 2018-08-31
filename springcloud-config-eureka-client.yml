@@ -1,9 +1,9 @@
 server: 
   port: 7001 #注册中心占用7001端口,冒号后面必须有空格 
 
-spring: 
+spring:
   profiles: dev
-  application:
+  application:  
     name: springcloud-config-eureka-client
 
 eureka: 

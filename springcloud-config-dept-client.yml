@@ -7,10 +7,10 @@ server:
   port: 8001
   
 mybatis: 
-  config-location: classpath:mybatis.cfg.xml
+  config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.springcloud.entities
   mapper-location: 
-  - classpath:mybatis/mapper/**/*.xml
+  - classpath:mybatis/mapper/*.xml
   
 spring: 
   profiles: dev
@@ -63,7 +63,7 @@ mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.springcloud.entities
   mapper-location: 
-  - classpath:mybatis/mapper/**/*.xml
+  - classpath:mybatis/mapper/*.xml
 
 eureka: 
   client: 
